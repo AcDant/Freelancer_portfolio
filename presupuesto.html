@@ -66,29 +66,36 @@
     </section>
     <div class="cuerpo">
       <main class="main">
-<form action="">
+<form action="" class="formu-presu">
   <fieldset class="field">
     <legend>Presupuesto
     </legend>
     <div class="empresa">
-      <label for="empresa">Empresa</label>
+      <label for="empresa" id="emp-lab">Empresa</label>
       <input type="text" id="empresa">
     </div>
     <div class="tipo">
-      <label for="tipologia">Tipología</label>
+      <label for="tipologia" id="tipologia">Tipología</label>
       <input type="checkbox" name="front" id="front">
+      <label for="front" id="front-lab">FrontEnd</label>
       <input type="checkbox" name="back" id="back">
+      <label for="back" id="back-lab">BackEnd</label>
     </div>
-    <div class="imgen-corpo">
-      <label for="tipo">Desea imagen corporativa</label>
+    <div class="imagen-corpo">
+      <label for="tipo" id="desea">Desea imagen corporativa</label>
       <input type="radio" name="tipo" id="yes">
+      <label for="yes" id="yes-lab">Si</label>
       <input type="radio" name="tipo" id="no">
+      <label for="no" id="yes-lab">No</label>
     </div>
-    <div class="web actu">
-      <label for="web">Web actual</label>
+    <div class="web-actu">
+      <label for="web" id="web-lab">Web actual</label>
       <input type="text" name="web" id="web">
     </div>
+    <div  class="text-presu">
+    <label for="descripcion">Descripción</label>
     <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+  </div>
   </fieldset>
 </form>
     </div>
