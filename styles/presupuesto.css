@@ -11,10 +11,11 @@
 .formu-presu{
     /* border: solid red 2px; */
     background-color: var(--gris);
-    width: 70%;
+    width: 100%;
     border-radius: 0.8rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+
 }
 
 .formu-presu input{
@@ -163,11 +164,12 @@
     .formu-presu{
         display: flex;
         justify-content: center;
+        /* border: solid red 2px; */
         /* flex-direction: column; */
         /* border: solid red 2px; */
-        width: 70%;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+        /* width: 70%; */
+        /* margin-top: 2rem; */
+        /* margin-bottom: 2rem; */
     }
 
 .field{
@@ -189,10 +191,12 @@
 
 .tipo{
     margin-top: 2rem;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+    /* display: flex;
+    flex-direction: column; */
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr);
     grid-template-rows: 1fr 1fr 1fr;
-    row-gap: 1rem;
+    row-gap: 1rem; */
     /* grid-template-areas: "tipologia . . . ."
                          ". . #front front-lab"
                          ". . back back-lab"; */
@@ -201,10 +205,11 @@
 
 .imagen-corpo{
     margin-top: 2rem;
-    display: grid;
+    /* display: flex; */
     grid-template-columns: 12;
     grid-template-rows: 2;
     row-gap: 1rem;
+    column-gap: 1rem;
     /* border: 2px solid red; */
 }
 
