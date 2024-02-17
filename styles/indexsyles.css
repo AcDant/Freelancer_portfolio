@@ -107,10 +107,6 @@ div {
   /* border: 2px solid red; */
 }
 
-.contenido-hero div {
-  /* border: red solid 2px; */
-}
-
 .diseño {
   height: 50%;
   display: flex;
@@ -426,11 +422,6 @@ fieldset legend {
     /* border: red solid 2px; */
   }
 
-  .form-zone {
-    /* border: solid red 2px; */
-    /* width: 100%; */
-  }
-
   .formulario {
     width: min(60rem, 90%);
     /* display: flex; */
@@ -503,9 +494,6 @@ fieldset legend {
     /* border: solid red; */
   }
 
-  .campo2 textarea {
-    /* height: 20rem; */
-  }
   .boton-form {
     background-color: var(--secundario);
     color: var(--blanco);
@@ -517,10 +505,5 @@ fieldset legend {
     font-weight: bold;
     outline: none;
     /* border: red solid 2px; */
-  }
-
-  .boton-form input {
-    /* padding: 0.8rem 2.6rem; */
-    /* border: #ffc107 2px solid; */
   }
 }
