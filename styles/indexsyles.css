@@ -22,7 +22,6 @@ html {
   list-style: none;
 }
 
-
 .bod {
   font-size: 1.7rem;
   font-family: "Krub", sans-serif;
@@ -499,8 +498,6 @@ fieldset legend {
     border-radius: 0.5rem;
     margin-top: 0.5rem;
   }
-
-
 
   .campos2 {
     /* border: solid red; */
