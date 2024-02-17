@@ -490,9 +490,7 @@ fieldset legend {
     margin-top: 0.5rem;
   }
 
-  .campos2 {
-    /* border: solid red; */
-  }
+ 
 
   .boton-form {
     background-color: var(--secundario);
